@@ -4,7 +4,12 @@ using UnityEngine;
 
 public class FDP : MonoBehaviour
 {
-   
+    public int pute;
+
+    private void Update()
+    {
+        pute = pute + 1;
+    }
 
 
 }
